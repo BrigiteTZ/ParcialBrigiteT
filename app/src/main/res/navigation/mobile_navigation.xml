@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navprincipal">
+    <fragment
+        android:id="@+id/navprincipal"
+        android:name="dev.brigitetarazona.parcialbrigitet.ui.fragments.PrincipalFragment"
+        android:label="fragment_principal"
+        tools:layout="@layout/fragment_principal" />
+    <fragment
+        android:id="@+id/navCotizador"
+        android:name="dev.brigitetarazona.parcialbrigitet.ui.fragments.CotizadorFragment"
+        android:label="fragment_cotizador"
+        tools:layout="@layout/fragment_cotizador" />
+    <fragment
+        android:id="@+id/navCliente"
+        android:name="dev.brigitetarazona.parcialbrigitet.ui.fragments.ClienteFragment"
+        android:label="fragment_musica"
+        tools:layout="@layout/fragment_cliente" />
+</navigation>

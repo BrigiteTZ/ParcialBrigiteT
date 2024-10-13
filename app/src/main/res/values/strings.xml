@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ParcialBrigiteT</string>
+    <string name="title_home">Servicios</string>
+    <string name="title_dashboard">Cotizador</string>
+    <string name="title_notifications">Clientes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="musica">music</string>
+    <string-array name="servicio_array">
+        <item>Cambio de aceite</item>
+        <item>Mantenimiento correctivo</item>
+        <item>Alineamiento de direccion</item>
+        <item>Cambio de frenos</item>
+    </string-array>
+    <string name="valbtnlogin">Ingresar</string>
+    <string name="valnomCosto">Ingrese el costo del servicio</string>
+    <string name="valnomcantidad">Ingrese la cantidad</string>
+    <string name="valbtnCalcular">Calcular</string>
+</resources>
